@@ -11,8 +11,8 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="SekretaricaTest.cs" t="Include" />
         <e p="TestProject.csproj" t="IncludeRecursive" />
-        <e p="Tests.cs" t="Include" />
       </e>
       <e p="Zadaca2" t="IncludeRecursive">
         <e p="App.config" t="Include" />
