@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Zadaca2/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Zadaca2/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Zadaca2/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/TestProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/TestProject.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/CHANGES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/NOTICES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/NUnit.3.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/NUnit.System.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TestProject/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ThsHFHpC3f9jLx10SSIroQFCCA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zadaca2/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Zadaca2/Zadaca2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="" />
+      <created>1573923573884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573923573884</updated>
+      <workItem from="1573923579392" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

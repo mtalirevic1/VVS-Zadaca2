@@ -1,0 +1,6 @@
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/bin/Debug/Zadaca2.exe.config
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/bin/Debug/Zadaca2.exe
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/bin/Debug/Zadaca2.pdb
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/obj/Debug/Zadaca2.exe
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/obj/Debug/Zadaca2.pdb

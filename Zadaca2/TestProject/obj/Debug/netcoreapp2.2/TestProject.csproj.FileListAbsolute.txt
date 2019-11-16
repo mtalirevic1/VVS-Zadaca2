@@ -1,0 +1,17 @@
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/TestProject.deps.json
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/TestProject.runtimeconfig.json
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/TestProject.runtimeconfig.dev.json
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/TestProject.dll
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/TestProject.pdb
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.exe
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.pdb
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.exe.config
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.csprojAssemblyReference.cache
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfoInputs.cache
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.AssemblyInfo.cs
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.csproj.CopyComplete
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.dll
+/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/Debug/netcoreapp2.2/TestProject.pdb

@@ -9,7 +9,6 @@ using Zadaca2a.Izuzeci;
 namespace Zadaca2a
 {
     public class Sekretarica
-    
     {
         const Double POPUST_NA_KOLIICNU_20 = 0.05; // Popust na kolicinu iznad 20 poruka.
         const Double POPUST_NA_KOLIICNU_50 = 0.1; // Popust na kolicinu iznad 50 poruka.
@@ -20,7 +19,7 @@ namespace Zadaca2a
         List<Poruka> _pristiglePoruke; // Sanduče ulaznih poruka.
         List<Poruka> _poslanePoruke; // Sanduče poslanih poruka.
         List<Poruka> _arhiviranePoruke; // Sanduče arhiviranih poruka.
-         //testing push
+
         String _algoritam; // Algoritam po kome će se poruke izbacivati u Inboxu i Outboxu. Arhiva je neograničena.
 
         #region KONSTRUKTORI
@@ -215,6 +214,5 @@ namespace Zadaca2a
             return 1;
         }
         #endregion
-       
     }
 }
