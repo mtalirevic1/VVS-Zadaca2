@@ -1,14 +1,13 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestProject
 {
-    [TestFixture]
+    [TestClass]
     public class SekretaricaTest
     {
-        [Test]
-        public void Test1()
+        [TestMethod]
+        public void TestMethod1()
         {
-            Assert.True(true);
         }
     }
 }
