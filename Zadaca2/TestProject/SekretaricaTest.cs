@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace TestProject
 {
     [TestFixture]
-    public class Tests
+    public class SekretaricaTest
     {
         [Test]
         public void Test1()
