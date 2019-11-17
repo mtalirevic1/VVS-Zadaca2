@@ -93,6 +93,13 @@ namespace TestProject
             k.Stanje = 10;
             Assert.Throws<NotEnoughMoneyException>(() => { k.naplati(2000); });
           }
+
+        [Test]
+        public void ArgumentNullExceptionTest()
+        {
+            Assert.Throws<ArgumentNullException>(() => { k.validirajBrojkartice(null); });
+            Assert.Throws<ArgumentNullException>(() => { Kartica.validirajSlova(null); });
+        }
     }
 
     
