@@ -1,5 +1,5 @@
 ﻿using System;
-using Zadaca2a;
+using Zadaca2a.Izuzeci;
 using Zadaca2a.Klase;
 using NUnit.Framework;
 
@@ -73,6 +73,26 @@ namespace TestProject
             Assert.IsTrue(Kartica.validirajSlova("CAPSLOCK"));
             Assert.IsTrue(Kartica.validirajSlova("KoMbiNaCiJa"));
         }
+
+ 
+   
+        //provjera izuzetaka
+        [Test]
+        public void CreditCardNotValidExcTest ()
+        {
+            
+            Assert.Throws<CreditCardNotValidException>(() => { k.BrojKreditneKartice="nebroj"; });
+           Assert.Throws<CreditCardNotValidException>(() => { k.Stanje=-1000; });
+
+
+        }
+
+        [Test]
+        public void NotEnoughMoneyExcTest()
+        {
+            k.Stanje = 10;
+            Assert.Throws<NotEnoughMoneyException>(() => { k.naplati(2000); });
+          }
     }
 
     
