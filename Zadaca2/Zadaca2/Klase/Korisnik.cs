@@ -16,7 +16,7 @@ namespace Zadaca2a.Klase
         Kartica _korisnickiRacun; // Korisnikov račun odakle se skida novac.
 
         #region KONSTRUKTORI
-        public Korisnik() { }
+        
         public Korisnik(string ime, string prezime, string brojTelefona, DateTime datumRodenja, String brojKreditneKartice, Double stanje)
         {
             Id = Guid.NewGuid().ToString();

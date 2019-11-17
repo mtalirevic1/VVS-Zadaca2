@@ -23,7 +23,6 @@ namespace Zadaca2a
         String _algoritam; // Algoritam po kome će se poruke izbacivati u Inboxu i Outboxu. Arhiva je neograničena.
 
         #region KONSTRUKTORI
-        public Sekretarica() { }
         public Sekretarica(Korisnik k)
         {
             Korisnik = k;
