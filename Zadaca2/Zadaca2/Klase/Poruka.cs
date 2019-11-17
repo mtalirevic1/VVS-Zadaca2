@@ -16,7 +16,6 @@ namespace Zadaca2a.Klase
         List<Korisnik> _primaoci;
 
         #region KONSTRUKTORI
-        public Poruka() { }
         public Poruka(string tekstPoruke, DateTime datumSlanja, Korisnik posiljaoc, List<Korisnik> primaoci)
         {
             TekstPoruke = tekstPoruke;

@@ -10,14 +10,17 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="TestProject" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CentralaTest.cs" t="Include" />
+        <e p="KarticaTest.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp2.1" t="Include">
               <e p="TestProject.AssemblyInfo.cs" t="Include" />
               <e p="TestProject.Program.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="PorukaTest.cs" t="Include" />
         <e p="SekretaricaTest.cs" t="Include" />
         <e p="TestProject.csproj" t="IncludeRecursive" />
         <e p="UnitTest1.cs" t="Include" />

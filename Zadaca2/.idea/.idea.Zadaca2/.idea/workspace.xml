@@ -2,35 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/TestProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/TestProject.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/TestProject.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/Zadaca2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/Debug/netcoreapp2.2/TestProject.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Centrala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Centrala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" afterDir="false" />
@@ -47,19 +34,26 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestProject/SekretaricaTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/KarticaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Kartica.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Sekretarica.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/CentralaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/PorukaTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Centrala.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Zadaca2/Centrala.cs" />
-        <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" />
         <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Centrala.cs" />
+        <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" />
+        <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
       </list>
     </option>
   </component>
@@ -71,7 +65,10 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
@@ -86,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -119,7 +116,16 @@
       <workItem from="1573923579392" duration="200000" />
       <workItem from="1573923911403" duration="559000" />
       <workItem from="1573926145684" duration="546000" />
+      <workItem from="1573987762155" duration="12740000" />
     </task>
+    <task id="LOCAL-00001" summary="Neki testovi za metodu povecajKapacitet klase Sekretarica">
+      <created>1573949208739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573949208739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Neki testovi za metodu povecajKapacitet klase Sekretarica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neki testovi za metodu povecajKapacitet klase Sekretarica" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -150,6 +158,32 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Zadaca2/Centrala.cs</url>
+          <line>75</line>
+          <properties documentPath="$PROJECT_DIR$/Zadaca2/Centrala.cs" initialLine="75">
+            <startOffsets>
+              <option value="1854" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1880" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TestProject/CentralaTest.cs</url>
+          <line>67</line>
+          <properties documentPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" initialLine="64">
+            <startOffsets>
+              <option value="2418" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2471" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
