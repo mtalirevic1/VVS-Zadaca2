@@ -63,8 +63,10 @@ namespace Zadaca2a.Klase
         #region METODE
         public Boolean validirajBrojkartice(String broj)
         {
-            if (string.IsNullOrEmpty(broj) && !broj.All(char.IsDigit))
-                return false;
+            if (string.IsNullOrEmpty(broj) && !broj.All(char.IsDigit)) 
+              return false;
+           
+               
 
             int sumaCifara = broj.Where((e) => e >= '0' && e <= '9')
                             .Reverse()

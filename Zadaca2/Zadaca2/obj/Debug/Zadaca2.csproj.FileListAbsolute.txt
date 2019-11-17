@@ -11,3 +11,10 @@ C:\Users\talir\RiderProjects\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.cspro
 C:\Users\talir\RiderProjects\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csproj.CoreCompileInputs.cache
 C:\Users\talir\RiderProjects\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.exe
 C:\Users\talir\RiderProjects\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.pdb
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.exe.config
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.exe
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.pdb
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csprojAssemblyReference.cache
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csproj.CoreCompileInputs.cache
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.exe
+C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.pdb
