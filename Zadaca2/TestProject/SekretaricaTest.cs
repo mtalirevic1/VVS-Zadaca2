@@ -2,7 +2,8 @@
 using NUnit.Framework;
 using Zadaca2a;
 using Zadaca2a.Klase;
-
+using Zadaca2a.Izuzeci;
+using System.Collections.Generic;
 
 namespace Tests
 {
@@ -44,5 +45,50 @@ namespace Tests
             StringAssert.AreEqualIgnoringCase(rezultat3,
                 "Kapacitet uspješno povećan sa 2 na 57 poruka, a to vas je koštalo =76.725 KM.");
         }
+
+
+        //Provjera izuzetaka 
+        [Test]
+        public void SpremiPoslanuPorukuExcTest ()
+        {
+            sekretarica = new Sekretarica(korisnik);
+            sekretarica.Algoritam = "NOTFIFO";
+            Assert.Throws<AlgorithmNotValidException>(() => {
+                while (true) sekretarica.spremiPoslanuPoruku(new Poruka("nope", DateTime.Now, null, null));
+
+                
+            });
+          
+        }
+
+        [Test]
+        public void SpremiPrimljenuPorukuExcTest()
+        {
+             sekretarica.Algoritam = "NOTFIFO";
+            Assert.Throws<AlgorithmNotValidException>(() => {
+                while (true) sekretarica.spremiPoslanuPoruku(new Poruka("nope", DateTime.Now, null, null));
+            });
+         }
+
+        [Test]
+        public void ArhivirajPorukuExcTest1()
+        {
+            
+            Assert.Throws<NullReferenceException>(() => {
+                sekretarica.arhivirajPoruke(null, "Pristigle Poruke");
+            });
+        }
+
+        [Test]
+        public void ArhivirajPorukuExcTest2()
+        {
+          
+            Assert.Throws<Exception>(() => {
+                sekretarica.arhivirajPoruke(null, "Nepoznata metoda");
+            });
+        }
+
+        
+
     }
 }
