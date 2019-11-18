@@ -123,6 +123,18 @@ namespace Tests
             poruke.Add(p2);
             poruke.Add(p3);
         }
-        
+
+        [Test]
+        public void PrioritetniAlgoritamTest1() // Nedovrsen
+        {
+            List<Poruka> poruke = new List<Poruka>();
+            Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
+            Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
+            Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
+            poruke.Add(p1);
+            poruke.Add(p2);
+            poruke.Add(p3);
+        }
+
     }
 }
