@@ -1,12 +1,3 @@
-# Prateći Programski Kodovi za Laboratorijske Vježbe
-
-U ovom repozitoriju nalaze se programski kodovi za laboratorijske vježbe na predmetu *Verifikacija i Validacija Softvera*.
-
-Navigacija:
-
-- branch **lv1** - Inspekcija Koda;
-- branch **lv2** - *Unit* Testiranje;
-- branch **lv3** - *Data-Driven Unit* Testiranje i Zamjenski Objekti;
-- branch **lv4** - Metrike i Refaktoring;
-- branch **z1** - Zadaća br. 1;
-- branch **z2** - Zadaća br. 2.
+<p align="center" width=48>
+  <img src="https://user-images.githubusercontent.com/44180058/69095706-33739e80-0a53-11ea-9736-7658a3979a2e.jpg" width="350">
+</p>
