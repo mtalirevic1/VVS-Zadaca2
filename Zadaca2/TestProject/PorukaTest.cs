@@ -19,11 +19,17 @@ namespace TestProject
         }
         // Test izuzetaka
         [Test]
-        public void PrioritetExc ()
+        public void PrioritetExcTest ()
         {
             Assert.Throws<Exception>(() => {
                 p.Prioritet = 21;
                });
+           
+        }
+
+        public void NegativniPrioritetExcTest()
+        {
+
             Assert.Throws<Exception>(() => {
                 p.Prioritet = -21;
             });

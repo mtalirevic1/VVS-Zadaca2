@@ -99,11 +99,7 @@ namespace Tests
             });
         }
 
-        [Test]
-        public void ArhivirajPorukuExcTest1()
-        {
-            Assert.Throws<NullReferenceException>(() => { sekretarica.arhivirajPoruke(null, "Pristigle Poruke"); });
-        }
+     
 
         [Test]
         public void ArhivirajPorukuExcTest2()
