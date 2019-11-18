@@ -23,6 +23,7 @@ namespace Zadaca2a
         String _algoritam; // Algoritam po kome će se poruke izbacivati u Inboxu i Outboxu. Arhiva je neograničena.
 
         #region KONSTRUKTORI
+
         public Sekretarica(Korisnik k)
         {
             Korisnik = k;
@@ -31,74 +32,50 @@ namespace Zadaca2a
             ArhiviranePoruke = new List<Poruka>();
             Algoritam = "FIFO";
         }
+
         #endregion
+
         #region PROPERTIES
+
         public Korisnik Korisnik
         {
-            get
-            {
-                return _korisnik;
-            }
+            get { return _korisnik; }
 
-            set
-            {
-                _korisnik = value;
-            }
+            set { _korisnik = value; }
         }
+
         public List<Poruka> PristiglePoruke
         {
-            get
-            {
-                return _pristiglePoruke;
-            }
+            get { return _pristiglePoruke; }
 
-            set
-            {
-                _pristiglePoruke = value;
-            }
+            set { _pristiglePoruke = value; }
         }
 
         public List<Poruka> PoslanePoruke
         {
-            get
-            {
-                return _poslanePoruke;
-            }
+            get { return _poslanePoruke; }
 
-            set
-            {
-                _poslanePoruke = value;
-            }
+            set { _poslanePoruke = value; }
         }
 
         public List<Poruka> ArhiviranePoruke
         {
-            get
-            {
-                return _arhiviranePoruke;
-            }
+            get { return _arhiviranePoruke; }
 
-            set
-            {
-                _arhiviranePoruke = value;
-            }
+            set { _arhiviranePoruke = value; }
         }
 
         public string Algoritam
         {
-            get
-            {
-                return _algoritam;
-            }
+            get { return _algoritam; }
 
-            set
-            {
-                _algoritam = value;
-            }
+            set { _algoritam = value; }
         }
 
         #endregion
+
         #region METODE
+
         public String povecajKapacitet(Int32 dodatniKapacitet)
         {
             Double iznos = 0;
@@ -114,7 +91,8 @@ namespace Zadaca2a
 
             String s = "Kapacitet uspješno povećan sa " + Convert.ToString(KAPACITET);
             KAPACITET = KAPACITET + dodatniKapacitet;
-            return s + " na " + Convert.ToString(KAPACITET) + " poruka, a to vas je koštalo =" + Convert.ToString(iznos) + " KM.";
+            return s + " na " + Convert.ToString(KAPACITET) + " poruka, a to vas je koštalo =" +
+                   Convert.ToString(iznos) + " KM.";
         }
 
         public Boolean primiPoruku(Poruka poruka)
@@ -146,7 +124,8 @@ namespace Zadaca2a
                 else if (Algoritam.Equals("PA"))
                     PoslanePoruke.RemoveAt(PrioritetniAlgoritam(PoslanePoruke));
                 else
-                    throw new AlgorithmNotValidException("Nemoguće spremiti poslanu poruku. Nepoznate postavke algoritma.");
+                    throw new AlgorithmNotValidException(
+                        "Nemoguće spremiti poslanu poruku. Nepoznate postavke algoritma.");
             }
 
             PoslanePoruke.Add(poruka);
@@ -174,8 +153,11 @@ namespace Zadaca2a
             else
                 throw new Exception("Nepoznat tip.");
         }
+
         #endregion
+
         #region ALGORITAM_METODE
+
         private Int32 FIFO(List<Poruka> por)
         {
             DateTime max = DateTime.Now;
@@ -192,6 +174,7 @@ namespace Zadaca2a
 
             return izbaci;
         }
+
         private Int32 LIFO(List<Poruka> por)
         {
             DateTime min = DateTime.Parse("01.01.1900");
@@ -208,23 +191,27 @@ namespace Zadaca2a
 
             return izbaci;
         }
+
+        // Promjenio tako da bude najveciPrioritet najmanja vrijednost
+        // Tj. da je npr. 1 prioritetniji od 2, a ne obrnuto?
         private Int32 PrioritetniAlgoritam(List<Poruka> por)
         {
             Int32 izbaci = 0;
             if (por == null || por.Count == 0) throw new Exception("Niz je prazan");
             if (por.Count == 1) return 0;
             int najveciPrioritet = por[0].Prioritet;
-            for (int i=1; i<por.Count; i++)
+            for (int i = 1; i < por.Count; i++)
             {
-                if (por[i].Prioritet > najveciPrioritet) {
+                if (por[i].Prioritet < najveciPrioritet)
+                {
                     najveciPrioritet = por[i].Prioritet;
                     izbaci = i;
-                 }
+                }
             }
 
             return izbaci;
-            
         }
+
         #endregion
     }
 }

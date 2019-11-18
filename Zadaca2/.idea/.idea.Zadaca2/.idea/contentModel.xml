@@ -23,7 +23,6 @@
         <e p="PorukaTest.cs" t="Include" />
         <e p="SekretaricaTest.cs" t="Include" />
         <e p="TestProject.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="Zadaca2" t="IncludeRecursive">
         <e p="App.config" t="Include" />

@@ -118,7 +118,8 @@ namespace Tests
                 poruke.Add(p);
             }
 
-            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5]));
+            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+                           && sekretarica.PristiglePoruke.Contains(poruke[2]));
         }
 
 
@@ -133,10 +134,26 @@ namespace Tests
                 sekretarica.primiPoruku(p);
                 poruke.Add(p);
             }
-
-            // Ne smije sadrzavati zadnji element
             Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[9]));
         }
+        
+        
+        [Test]
+        public void PATest1()
+        {
+            sekretarica.Algoritam = "PA";
+            List<Poruka> poruke = new List<Poruka>();
+            for (int i = 0; i < 7; i++)
+            {
+                Poruka p = new Poruka("", new DateTime(2019, 10, i + 1), null, null);
+                p.Prioritet = i + 1;
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+                          && sekretarica.PristiglePoruke.Contains(poruke[6]));
+        }
+        
 
         [Test]
         public void PrioritetniAlgoritamTest1() // Nedovrsen
