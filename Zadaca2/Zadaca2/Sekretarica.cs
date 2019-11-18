@@ -210,7 +210,20 @@ namespace Zadaca2a
         }
         private Int32 PrioritetniAlgoritam(List<Poruka> por)
         {
-            return 1;
+            Int32 izbaci = 0;
+            if (por == null || por.Count == 0) throw new Exception("Niz je prazan");
+            if (por.Count == 1) return 0;
+            int najveciPrioritet = por[0].Prioritet;
+            for (int i=1; i<por.Count; i++)
+            {
+                if (por[i].Prioritet > najveciPrioritet) {
+                    najveciPrioritet = por[i].Prioritet;
+                    izbaci = i;
+                 }
+            }
+
+            return izbaci;
+            
         }
         #endregion
     }

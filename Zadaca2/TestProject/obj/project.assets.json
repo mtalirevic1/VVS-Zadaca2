@@ -5925,23 +5925,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\talir\\.nuget\\packages\\": {},
+    "C:\\Users\\Lino\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\talir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\obj\\",
+      "projectPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\Lino\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\talir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lino\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5954,8 +5954,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
-              "projectPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
+            "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
+              "projectPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
             }
           }
         }
