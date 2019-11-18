@@ -5931,11 +5931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lino\\source\\repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\Lino\\source\\repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\Lino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lino\\source\\repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5954,8 +5954,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Lino\\source\\repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
-              "projectPath": "C:\\Users\\Lino\\source\\repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
+            "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
+              "projectPath": "C:\\Users\\Lino\\Source\\Repos\\mtalirevic1\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
             }
           }
         }
