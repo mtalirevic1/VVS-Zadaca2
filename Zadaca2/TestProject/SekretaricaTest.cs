@@ -63,8 +63,8 @@ namespace Tests
             sekretarica.primiPoruku(p1);
             sekretarica.primiPoruku(p2);
             Assert.Throws<AlgorithmNotValidException>(() => { sekretarica.primiPoruku(p3); });
-        } 
-        
+        }
+
         [Test]
         public void PrimiPorukuTest2()
         {
@@ -74,9 +74,9 @@ namespace Tests
             sekretarica.primiPoruku(p1);
             sekretarica.primiPoruku(p2);
             Assert.True(sekretarica.primiPoruku(p3));
-        } 
-        
-        
+        }
+
+
         //Provjera izuzetaka 
         [Test]
         public void SpremiPoslanuPorukuExcTest1()
@@ -99,7 +99,6 @@ namespace Tests
             });
         }
 
-     
 
         [Test]
         public void ArhivirajPorukuExcTest2()
@@ -107,17 +106,36 @@ namespace Tests
             Assert.Throws<Exception>(() => { sekretarica.arhivirajPoruke(null, "Nepoznata metoda"); });
         }
 
-        
         [Test]
-        public void FIFOTest1() // Nedovrsen
+        public void FIFOTest1()
         {
+            sekretarica.Algoritam = "FIFO";
             List<Poruka> poruke = new List<Poruka>();
-            Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
-            Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
-            Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
-            poruke.Add(p1);
-            poruke.Add(p2);
-            poruke.Add(p3);
+            for (int i = 0; i < 10; i++)
+            {
+                Poruka p = new Poruka("", new DateTime(2019, 10, i + 1), null, null);
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+
+            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5]));
+        }
+
+
+        [Test]
+        public void LIFOTest1()
+        {
+            sekretarica.Algoritam = "LIFO";
+            List<Poruka> poruke = new List<Poruka>();
+            for (int i = 0; i < 10; i++)
+            {
+                Poruka p = new Poruka("", new DateTime(2019, 10, i + 1), null, null);
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+
+            // Ne smije sadrzavati zadnji element
+            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[9]));
         }
 
         [Test]
@@ -127,7 +145,9 @@ namespace Tests
             Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
             Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
             Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
-            p1.Prioritet = 1; p2.Prioritet = 2; p3.Prioritet = 3;
+            p1.Prioritet = 1;
+            p2.Prioritet = 2;
+            p3.Prioritet = 3;
             poruke.Add(p1);
             poruke.Add(p2);
             poruke.Add(p3);
@@ -135,13 +155,15 @@ namespace Tests
 
 
         [Test]
-        public void PrioritetniAlgoritamTest2() // Test istih prioriteta
+        public void PrioritetniAlgoritamTest2() // Nedovrsen - Test istih prioriteta
         {
             List<Poruka> poruke = new List<Poruka>();
             Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
             Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
             Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
-            p1.Prioritet = 3; p2.Prioritet = 3; p3.Prioritet = 3;
+            p1.Prioritet = 3;
+            p2.Prioritet = 3;
+            p3.Prioritet = 3;
             poruke.Add(p1);
             poruke.Add(p2);
             poruke.Add(p3);

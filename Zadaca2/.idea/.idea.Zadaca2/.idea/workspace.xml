@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/CentralaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/KarticaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/KarticaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/PorukaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/PorukaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" afterDir="false" />
@@ -43,20 +37,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Kartica.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/PorukaTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/MessageTooLongException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/KarticaTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/NotEnoughMoneyException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/CentralaTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/CreditCardNotValidException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/AlgorithmNotValidException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/SekretaricaTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Sekretarica.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/CreditCardNotValidException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/NotEnoughMoneyException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/MessageTooLongException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Kartica.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Centrala.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/PorukaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/SekretaricaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/KarticaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/CentralaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Sekretarica.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -68,9 +62,10 @@
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" />
         <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
-        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Program.cs" />
         <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/KarticaTest.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +133,7 @@
       <workItem from="1574024182419" duration="8402000" />
       <workItem from="1574100170496" duration="351000" />
       <workItem from="1574100527081" duration="289000" />
+      <workItem from="1574105665286" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="Neki testovi za metodu povecajKapacitet klase Sekretarica">
       <created>1573949208739</created>
@@ -156,28 +152,12 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="293" />
+    <option name="symbolColumnWidth" value="329" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="179" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="178" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="178" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="169" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

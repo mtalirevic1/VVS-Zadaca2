@@ -17,32 +17,27 @@ namespace TestProject
         {
             p = new Poruka("Tekst", DateTime.Now, null, null);
         }
+
         // Test izuzetaka
         [Test]
-        public void PrioritetExcTest ()
+        public void PrioritetExcTest()
         {
-            Assert.Throws<Exception>(() => {
-                p.Prioritet = 21;
-               });
-           
+            Assert.Throws<Exception>(() => { p.Prioritet = 21; });
         }
 
         public void NegativniPrioritetExcTest()
         {
-
-            Assert.Throws<Exception>(() => {
-                p.Prioritet = -21;
-            });
+            Assert.Throws<Exception>(() => { p.Prioritet = -21; });
         }
 
 
         [Test]
         public void LongMessageExc()
         {
-            Assert.Throws<MessageTooLongException>(() => {
+            Assert.Throws<MessageTooLongException>(() =>
+            {
                 p.TekstPoruke = "Ovo je duza poruka. Ovo je duza poruka. Ovo je duza poruka.";
             });
         }
-
     }
 }
