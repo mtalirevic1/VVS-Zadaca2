@@ -17,7 +17,7 @@ namespace TestProject
         {
             p = new Poruka("Tekst", DateTime.Now, null, null);
         }
-        //test izuzetaka
+        // Test izuzetaka
         [Test]
         public void PrioritetExc ()
         {
@@ -36,9 +36,7 @@ namespace TestProject
             Assert.Throws<MessageTooLongException>(() => {
                 p.TekstPoruke = "Ovo je duza poruka. Ovo je duza poruka. Ovo je duza poruka.";
             });
-          
         }
-
 
     }
 }
