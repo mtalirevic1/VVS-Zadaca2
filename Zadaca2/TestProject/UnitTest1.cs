@@ -14,7 +14,6 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Centrala c = new Centrala();
             Assert.Pass();
         }
     }

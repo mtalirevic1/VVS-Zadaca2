@@ -3,7 +3,6 @@ using NUnit.Framework;
 using Zadaca2a;
 using Zadaca2a.Klase;
 using Zadaca2a.Izuzeci;
-using System.Collections.Generic;
 
 namespace Tests
 {

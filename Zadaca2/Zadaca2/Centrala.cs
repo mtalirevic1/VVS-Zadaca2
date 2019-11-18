@@ -14,7 +14,6 @@ namespace Zadaca2a
         List<Sekretarica> _sekretariceNaMrezi;
         
         #region KONSTRUKTORI
-        public Centrala() { }
         public Centrala(String naziv)
         {
             Naziv = naziv;
