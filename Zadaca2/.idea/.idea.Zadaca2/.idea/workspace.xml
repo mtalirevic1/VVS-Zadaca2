@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/CentralaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/PorukaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/PorukaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/TestProject.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Centrala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Centrala.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" afterDir="false" />
     </list>
@@ -28,32 +25,52 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TestProject/SekretaricaTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/KarticaTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/4530d6dba175fae6ff8f8ade6c07fd05e6c1c7c5/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Klase/Kartica.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Zadaca2/Sekretarica.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/CentralaTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestProject/PorukaTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TestProject/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/MessageTooLongException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/KarticaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/NotEnoughMoneyException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/CentralaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/CreditCardNotValidException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Izuzeci/AlgorithmNotValidException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/SekretaricaTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Sekretarica.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zadaca2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Zadaca2/Centrala.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestProject/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Korisnik.cs" />
-        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Centrala.cs" />
         <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" />
         <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
+        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Program.cs" />
+        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +87,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,6 +135,9 @@
       <workItem from="1573923911403" duration="559000" />
       <workItem from="1573926145684" duration="546000" />
       <workItem from="1573987762155" duration="12740000" />
+      <workItem from="1574024182419" duration="8402000" />
+      <workItem from="1574100170496" duration="351000" />
+      <workItem from="1574100527081" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="Neki testovi za metodu povecajKapacitet klase Sekretarica">
       <created>1573949208739</created>
@@ -130,6 +151,37 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="293" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="179" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="178" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="178" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="169" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -158,32 +210,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Zadaca2/Centrala.cs</url>
-          <line>75</line>
-          <properties documentPath="$PROJECT_DIR$/Zadaca2/Centrala.cs" initialLine="75">
-            <startOffsets>
-              <option value="1854" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1880" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TestProject/CentralaTest.cs</url>
-          <line>67</line>
-          <properties documentPath="$PROJECT_DIR$/TestProject/CentralaTest.cs" initialLine="64">
-            <startOffsets>
-              <option value="2418" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2471" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

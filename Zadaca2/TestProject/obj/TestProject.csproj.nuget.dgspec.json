@@ -1,37 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj": {}
+    "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/TestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj": {
+    "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\talir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\TestProject\\obj\\",
+        "projectPath": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/TestProject.csproj",
+        "packagesPath": "/Users/kerim/.nuget/packages/",
+        "outputPath": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/TestProject/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\talir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/kerim/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
-                "projectPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
+              "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/Zadaca2.csproj": {
+                "projectPath": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/Zadaca2.csproj"
               }
             }
           }
@@ -76,12 +74,12 @@
         }
       }
     },
-    "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj": {
+    "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/Zadaca2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj",
+        "projectUniqueName": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/Zadaca2.csproj",
         "projectName": "Zadaca2",
-        "projectPath": "C:\\Users\\talir\\RiderProjects\\VVS-Zadaca2\\Zadaca2\\Zadaca2\\Zadaca2.csproj"
+        "projectPath": "/Users/kerim/RiderProjects/VVS-Zadaca2/Zadaca2/Zadaca2/Zadaca2.csproj"
       },
       "frameworks": {
         "net461": {}
