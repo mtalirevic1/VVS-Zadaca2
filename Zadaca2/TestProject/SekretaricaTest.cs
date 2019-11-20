@@ -185,5 +185,41 @@ namespace Tests
             poruke.Add(p2);
             poruke.Add(p3);
         }
+        
+        //Zamjenski objekat fake za svrhu testiranja prioritetnog algoritma
+        
+        public class Fake : Poruka
+        {
+            private static int priority=0;
+            public int prioritet()
+            {
+                Prioritet=++priority;
+                return Prioritet;
+            }
+
+            public Fake() : base("", System.DateTime.Now, null, null)
+            {
+            }
+
+            public Fake(string tekstPoruke, DateTime datumSlanja, Korisnik posiljaoc, List<Korisnik> primaoci) : base(tekstPoruke, datumSlanja, posiljaoc, primaoci)
+            {
+            }
+        }
+        
+        [Test]
+        public void PATestSpy() //test sa zamjenskim objektom
+        {
+            sekretarica.Algoritam = "PA";
+            List<Fake> poruke = new List<Fake>();
+            for (int i = 0; i < 7; i++)
+            {
+                Fake p = new Fake();
+                p.prioritet();
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+                          && sekretarica.PristiglePoruke.Contains(poruke[6]));
+        }
     }
 }
