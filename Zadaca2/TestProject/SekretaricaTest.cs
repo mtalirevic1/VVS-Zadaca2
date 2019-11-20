@@ -154,37 +154,6 @@ namespace Tests
                           && sekretarica.PristiglePoruke.Contains(poruke[6]));
         }
         
-
-        [Test]
-        public void PrioritetniAlgoritamTest1() // Nedovrsen
-        {
-            List<Poruka> poruke = new List<Poruka>();
-            Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
-            Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
-            Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
-            p1.Prioritet = 1;
-            p2.Prioritet = 2;
-            p3.Prioritet = 3;
-            poruke.Add(p1);
-            poruke.Add(p2);
-            poruke.Add(p3);
-        }
-
-
-        [Test]
-        public void PrioritetniAlgoritamTest2() // Nedovrsen - Test istih prioriteta
-        {
-            List<Poruka> poruke = new List<Poruka>();
-            Poruka p1 = new Poruka("", new DateTime(2019, 10, 3), null, null);
-            Poruka p2 = new Poruka("", new DateTime(2019, 10, 2), null, null);
-            Poruka p3 = new Poruka("", new DateTime(2019, 10, 1), null, null);
-            p1.Prioritet = 3;
-            p2.Prioritet = 3;
-            p3.Prioritet = 3;
-            poruke.Add(p1);
-            poruke.Add(p2);
-            poruke.Add(p3);
-        }
         
         //Zamjenski objekat fake za svrhu testiranja prioritetnog algoritma
         

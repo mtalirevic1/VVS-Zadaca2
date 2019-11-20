@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/KarticaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/KarticaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/PorukaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/PorukaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +58,11 @@
         <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" />
         <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
-        <option value="$PROJECT_DIR$/Zadaca2/Program.cs" />
-        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
-        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
         <option value="$PROJECT_DIR$/TestProject/KarticaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Program.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +132,7 @@
       <workItem from="1574100527081" duration="289000" />
       <workItem from="1574105665286" duration="1213000" />
       <workItem from="1574110308725" duration="1682000" />
-      <workItem from="1574279919396" duration="546000" />
+      <workItem from="1574279919396" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="Neki testovi za metodu povecajKapacitet klase Sekretarica">
       <created>1573949208739</created>
@@ -142,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574106117771</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sitna ispravka">
+      <created>1574280490396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574280490396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,20 +175,56 @@
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="11" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="79" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="4" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="170" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="4" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="20" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="114" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -200,7 +249,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="Neki testovi za metodu povecajKapacitet klase Sekretarica" />
     <MESSAGE value="Dodani novi testovi za algoritam metode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodani novi testovi za algoritam metode" />
+    <MESSAGE value="Sitna ispravka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sitna ispravka" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

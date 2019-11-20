@@ -2,9 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework.Internal;
 using Zadaca2a;
 using Zadaca2a.Izuzeci;
 using Zadaca2a.Klase;
+using Assert = NUnit.Framework.Assert;
 
 namespace TestProject
 {
@@ -25,6 +28,7 @@ namespace TestProject
             Assert.Throws<Exception>(() => { p.Prioritet = 21; });
         }
 
+        [Test]
         public void NegativniPrioritetExcTest()
         {
             Assert.Throws<Exception>(() => { p.Prioritet = -21; });
