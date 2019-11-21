@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5991de88-deee-4e24-adfb-618fb9c3224b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Zadaca2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/PorukaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/PorukaTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/KarticaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/KarticaTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadaca2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/bin/Debug/Zadaca2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Zadaca2/obj/Debug/Zadaca2.exe" afterDir="false" />
@@ -57,12 +57,12 @@
         <option value="$PROJECT_DIR$/Zadaca2/Centrala.cs" />
         <option value="$PROJECT_DIR$/TestProject/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Klase/Poruka.cs" />
-        <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
-        <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
-        <option value="$PROJECT_DIR$/TestProject/KarticaTest.cs" />
-        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
-        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
         <option value="$PROJECT_DIR$/Zadaca2/Program.cs" />
+        <option value="$PROJECT_DIR$/Zadaca2/Sekretarica.cs" />
+        <option value="$PROJECT_DIR$/TestProject/SekretaricaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/KarticaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/CentralaTest.cs" />
+        <option value="$PROJECT_DIR$/TestProject/PorukaTest.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +79,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="RiderDotCoverPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,6 +133,7 @@
       <workItem from="1574105665286" duration="1213000" />
       <workItem from="1574110308725" duration="1682000" />
       <workItem from="1574279919396" duration="1296000" />
+      <workItem from="1574359770980" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Neki testovi za metodu povecajKapacitet klase Sekretarica">
       <created>1573949208739</created>
@@ -162,10 +163,10 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="144" />
+    <option name="coveragePercentColumnWidth" value="143" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="332" />
+    <option name="symbolColumnWidth" value="330" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -175,56 +176,38 @@
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="9" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="9" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="10" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="9" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="114" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="11" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="117" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="39" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="79" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="170" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="20" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="116" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="114" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="11" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="31" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />

@@ -98,6 +98,5 @@ namespace TestProject
             k.Stanje = 10;
             Assert.Throws<NotEnoughMoneyException>(() => { k.naplati(2000); });
         }
-
     }
 }

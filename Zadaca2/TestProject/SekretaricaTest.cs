@@ -9,7 +9,7 @@ using Zadaca2a.Izuzeci;
 using Assert = NUnit.Framework.Assert;
 using StringAssert = NUnit.Framework.StringAssert;
 
-namespace Tests
+namespace TestProject
 {
     public class SekretaricaTest
     {
@@ -118,7 +118,7 @@ namespace Tests
                 poruke.Add(p);
             }
 
-            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5])
                            && sekretarica.PristiglePoruke.Contains(poruke[2]));
         }
 
@@ -134,10 +134,11 @@ namespace Tests
                 sekretarica.primiPoruku(p);
                 poruke.Add(p);
             }
+
             Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[9]));
         }
-        
-        
+
+
         [Test]
         public void PATest1()
         {
@@ -150,19 +151,54 @@ namespace Tests
                 sekretarica.primiPoruku(p);
                 poruke.Add(p);
             }
-            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5])
                           && sekretarica.PristiglePoruke.Contains(poruke[6]));
         }
-        
-        
+
+
+        [Test]
+        public void PATest2()
+        {
+            sekretarica.Algoritam = "PA";
+            List<Poruka> poruke = new List<Poruka>();
+            for (int i = 0; i < 7; i++)
+            {
+                Poruka p = new Poruka("", new DateTime(2019, 10, i + 1), null, null);
+                p.Prioritet = 1;
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5])
+                          && sekretarica.PristiglePoruke.Contains(poruke[6]));
+        }
+
+        [Test]
+        public void PATest4()
+        {
+            sekretarica.Algoritam = "PA";
+            List<Poruka> poruke = new List<Poruka>();
+            for (int i = 0; i < 7; i++)
+            {
+                Poruka p = new Poruka("", new DateTime(2019, 10, i + 1), null, null);
+                p.Prioritet = 10 - i;
+                sekretarica.primiPoruku(p);
+                poruke.Add(p);
+            }
+
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[0]));
+        }
+
+
         //Zamjenski objekat fake za svrhu testiranja prioritetnog algoritma
-        
         public class Fake : Poruka
         {
-            private static int priority=0;
+            private static int priority = 0;
+
             public int prioritet()
             {
-                Prioritet=++priority;
+                Prioritet = ++priority;
                 return Prioritet;
             }
 
@@ -170,11 +206,12 @@ namespace Tests
             {
             }
 
-            public Fake(string tekstPoruke, DateTime datumSlanja, Korisnik posiljaoc, List<Korisnik> primaoci) : base(tekstPoruke, datumSlanja, posiljaoc, primaoci)
+            public Fake(string tekstPoruke, DateTime datumSlanja, Korisnik posiljaoc, List<Korisnik> primaoci) : base(
+                tekstPoruke, datumSlanja, posiljaoc, primaoci)
             {
             }
         }
-        
+
         [Test]
         public void PATestSpy() //test sa zamjenskim objektom
         {
@@ -187,7 +224,8 @@ namespace Tests
                 sekretarica.primiPoruku(p);
                 poruke.Add(p);
             }
-            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5]) 
+
+            Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[5])
                           && sekretarica.PristiglePoruke.Contains(poruke[6]));
         }
     }
