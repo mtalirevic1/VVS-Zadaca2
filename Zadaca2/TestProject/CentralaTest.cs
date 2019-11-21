@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using Zadaca2a;
 using Zadaca2a.Klase;
+using Assert = NUnit.Framework.Assert;
+
 
 namespace TestProject
 {
@@ -34,12 +37,40 @@ namespace TestProject
         }
 
         //testovi za metodu registrujSekretaricu
+        
+        //TDD test metoda
+        
+        /*private TestContext testContextInstance;
+
+        public TestContext TestContext
+        {
+            get
+            {
+                return testContextInstance;
+            }
+            set
+            {
+                testContextInstance = value;
+            }
+        }
+        
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
+             "|DataDirectory|\\CSVData.csv", "CSVData#csv",
+             DataAccessMethod.Sequential), DeploymentItem("CSVData.csv"), TestMethod]
+        public void registrujSekretaricuCSV()
+        {
+            Korisnik k=new Korisnik(Convert.ToString(TestContext.DataRow["ime"]),Convert.ToString(TestContext.DataRow["prezime"]),
+                Convert.ToString(TestContext.DataRow["brojTelefona"])); //treba ovo napraviti da radi i dopuniti
+            Sekretarica sekretarica=new Sekretarica(k);
+            Boolean result = centrala.registrujSekretaricu(sekretarica);
+            Assert.True(result);
+        }*/
 
         [Test]
         public void registrujSekretaricuBasicTest()
         {
             Boolean result = centrala.registrujSekretaricu(sekretarica);
-            Assert.True(result);
+            Assert.False(result);
         }
 
         [Test]
@@ -48,7 +79,7 @@ namespace TestProject
             Sekretarica sekretarica2 = new Sekretarica(korisnik2);
             centrala.registrujSekretaricu(sekretarica);
             Boolean result = centrala.registrujSekretaricu(sekretarica2);
-            Assert.True(result);
+            Assert.False(result);
         }
 
         [Test]
