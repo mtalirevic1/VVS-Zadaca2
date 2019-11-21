@@ -156,6 +156,7 @@ namespace Zadaca2a
 
         #endregion
 
+
         #region ALGORITAM_METODE
 
         private Int32 FIFO(List<Poruka> por)

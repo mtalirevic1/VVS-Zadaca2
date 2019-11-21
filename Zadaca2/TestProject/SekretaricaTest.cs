@@ -8,6 +8,7 @@ using Zadaca2a.Klase;
 using Zadaca2a.Izuzeci;
 using Assert = NUnit.Framework.Assert;
 using StringAssert = NUnit.Framework.StringAssert;
+using TestContext = NUnit.Framework.TestContext;
 
 namespace TestProject
 {
@@ -15,6 +16,12 @@ namespace TestProject
     {
         private Sekretarica sekretarica;
         private Korisnik korisnik;
+        private TestContext testContextInstance;
+        public TestContext TestContextInstance
+        {
+            get { return testContextInstance; }
+            set { testContextInstance = value; }
+        }
 
         [SetUp]
         public void Init()
@@ -135,7 +142,7 @@ namespace TestProject
                 poruke.Add(p);
             }
 
-            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[9]));
+            Assert.IsFalse(sekretarica.PristiglePoruke.Contains(poruke[5]));
         }
 
 
@@ -190,6 +197,35 @@ namespace TestProject
             Assert.IsTrue(sekretarica.PristiglePoruke.Contains(poruke[0]));
         }
 
+        [Test]
+        public void ArhivirajPoslanuPorukuTest()
+        {
+            sekretarica = new Sekretarica(korisnik);
+            sekretarica.PoslanePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PoslanePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PoslanePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PoslanePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PoslanePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            List<Int32> index = new List<Int32>() { 0, 1, 1 };
+            // index.Add(1); index.Add(2);
+
+            sekretarica.arhivirajPoruke(index, "Poslane Poruke");
+            Assert.AreEqual(2, sekretarica.PoslanePoruke.Count);
+        }
+
+        [Test]
+        public void ArhivirajPristigluPorukuTest()
+        {
+            sekretarica = new Sekretarica(korisnik);
+            sekretarica.PristiglePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PristiglePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PristiglePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PristiglePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            sekretarica.PristiglePoruke.Add(new Poruka("dt", DateTime.Now, null, null));
+            List<Int32> index = new List<Int32>() { 4, 0, 1, 0 };
+            sekretarica.arhivirajPoruke(index, "Pristigle Poruke");
+            Assert.AreEqual(4, sekretarica.ArhiviranePoruke.Count);
+        }
 
         //Zamjenski objekat fake za svrhu testiranja prioritetnog algoritma
         public class Fake : Poruka

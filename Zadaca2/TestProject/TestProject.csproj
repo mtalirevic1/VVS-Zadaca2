@@ -17,4 +17,10 @@
       <ProjectReference Include="..\Zadaca2\Zadaca2.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="podaci.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

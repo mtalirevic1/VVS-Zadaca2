@@ -18,3 +18,10 @@ C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zad
 C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csproj.CoreCompileInputs.cache
 C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.exe
 C:\Users\Lino\Source\Repos\mtalirevic1\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.pdb
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.exe.config
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.exe
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\bin\Debug\Zadaca2.pdb
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csprojAssemblyReference.cache
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.csproj.CoreCompileInputs.cache
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.exe
+C:\Users\Kerim\Desktop\VVS-Zadaca2\Zadaca2\Zadaca2\obj\Debug\Zadaca2.pdb

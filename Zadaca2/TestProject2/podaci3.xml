@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tests>
+  <korisnik>
+    <ime>Matej</ime>
+    <prezime>Talirevic</prezime>
+    <brojTelefona>999999</brojTelefona>
+    <datumRodjenja>25.02.1998</datumRodjenja>
+    <brojKK>0</brojKK>
+    <stanje>1000</stanje>
+  </korisnik>
+
+  <korisnik>
+    <ime>Kerim</ime>
+    <prezime>Kadusic</prezime>
+    <brojTelefona>999888</brojTelefona>
+    <datumRodjenja>12.06.1999</datumRodjenja>
+    <brojKK>0</brojKK>
+    <stanje>1000</stanje>
+  </korisnik>
+
+  <korisnik>
+    <ime>Lino</ime>
+    <prezime>Bevanda</prezime>
+    <brojTelefona>999888</brojTelefona>
+    <datumRodjenja>12.06.1999</datumRodjenja>
+    <brojKK>0</brojKK>
+    <stanje>1000</stanje>
+  </korisnik>
+</tests>
